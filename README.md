@@ -1,3 +1,18 @@
+# Skript
+
+All steps in `neice.sh`. Check if all python libraries are installed, haven't added a updated requirements list.
+```bash
+time ./neice.sh
+```
+
+Dataset must be stored in root directory outside of github.
+
+```
+- podcast-topic-modeling
+- datasets
+  -deezer_podcast_dataset.tsv
+```
+
 # Topic Modeling on Podcast Short-Text Metadata
 
 The current repository provides the code for NEiCE, a Named Entity (NE) informed corpus embedding for short-text topic modeling with Non-negative Matrix Factorization (NMF). This is part of the experiments described in the article [**Topic Modeling on Podcast Short-Text Metadata**](https://arxiv.org/pdf/2201.04419.pdf), presented at [**ECIR 2022**](https://ecir2022.org/).
