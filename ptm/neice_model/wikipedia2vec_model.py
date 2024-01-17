@@ -19,7 +19,7 @@ class Wikipedia2VecModel(object):
     def build(self):
         documents = self._read_raw_dataset(self.corpus)
         dataset_cv = CountVectorizer(vocabulary=self.vocab).fit(documents)
-        dataset_words = dataset_cv.get_feature_names()
+        dataset_words = dataset_cv.get_feature_names_out()
         vocabulary_size = len(dataset_words)
         words_values = []
         for i in dataset_words:

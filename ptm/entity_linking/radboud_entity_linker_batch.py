@@ -37,6 +37,7 @@ def main():
         dataset_fname,
         sep=args.sep,
     )
+    print(df)
     df[f'{args.col_title}_{args.col_description}'] = df[args.col_title] + " " + df[args.col_description]
     dataset = df[f'{args.col_title}_{args.col_description}'].to_list()
     del df

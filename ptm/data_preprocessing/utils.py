@@ -31,7 +31,7 @@ class SimplePreprocessing():
 
         vectorizer = CountVectorizer(max_features=self.vocabulary_size, token_pattern=r'\b[a-zA-Z]{2,}\b', min_df=self.min_df)
         vectorizer.fit_transform(preprocessed_docs_tmp)
-        vocabulary_ = set(vectorizer.get_feature_names())
+        vocabulary_ = set(vectorizer.get_feature_names_out())
         
         vocabulary = set()
         for word in vocabulary_:

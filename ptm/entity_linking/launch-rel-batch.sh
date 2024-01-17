@@ -23,7 +23,9 @@ mkdir -p ${OUTPUT_DIR}
 
 python3 radboud_entity_linker_batch.py ${DATASET_FNAME} ${OUTPUT_DIR} ${BASE_URL} \
     --batch_size ${BATCH_SIZE} \
-    --wiki_version ${WIKI_VERSION}
+    --wiki_version ${WIKI_VERSION} \
+    # --sep ,
 
 python3 join_predictions.py ${OUTPUT_DIR} ${DATASET_FNAME} \
-    --batch_size ${BATCH_SIZE}
+    --batch_size ${BATCH_SIZE} \
+    # --sep ,

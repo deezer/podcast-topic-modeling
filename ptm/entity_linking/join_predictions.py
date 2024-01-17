@@ -20,7 +20,9 @@ def main():
     df = pd.read_csv(
         args.fname_dataset,
         sep=args.sep,
+        on_bad_lines='skip'
     )
+    print(df)
     df[f'{args.col_title}_{args.col_description}'] = df[args.col_title] + " " + df[args.col_description]
     dataset = df[f'{args.col_title}_{args.col_description}'].to_list()
     del df

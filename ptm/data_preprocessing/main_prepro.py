@@ -55,6 +55,7 @@ def main():
             for e in l:
                 f.write(f"{e}\n")
 
+
     def _import_le_json(fname):
         with open(fname, 'r', encoding='utf-8') as f:
             res = json.load(f)
@@ -119,7 +120,9 @@ def main():
             d['raw_le'] = d['raw']
             d['contains_le'] = False
             d['les'] = None
-        df = df.append(d, ignore_index=True)
+
+        df_dict = pd.DataFrame([d])
+        df = pd.concat([df, df_dict], ignore_index=True)
 
     # Prepro raw corpus without linked entities
     documents = df['raw'].to_list()

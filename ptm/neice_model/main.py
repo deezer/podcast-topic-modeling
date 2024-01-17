@@ -99,7 +99,7 @@ def main():
 
     nmf = NMF(
         n_components=args.n_topics,
-        alpha=args.alpha_nmf,
+        alpha_W=args.alpha_nmf,
         l1_ratio=args.l1_ratio_nmf,
         random_state=args.random_state,
     ).fit(
