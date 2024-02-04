@@ -1,0 +1,128 @@
+K 20 T 10 alpha_word 0.2 alpha_ent 0.30: 
+51.4062
+
+
+K 20 T 10 alpha_word 0.3 alpha_ent 0.30: 
+51.4062
+
+
+K 20 T 10 alpha_word 0.4 alpha_ent 0.30: 
+50.824000000000005
+
+
+K 20 T 10 alpha_word 0.5 alpha_ent 0.30: 
+50.1422
+
+
+K 20 T 10 alpha_word 0.2 alpha_ent 0.40: 
+57.5044
+
+
+K 20 T 10 alpha_word 0.3 alpha_ent 0.40: 
+57.5044
+
+
+K 20 T 10 alpha_word 0.4 alpha_ent 0.40: 
+57.276
+
+
+K 20 T 10 alpha_word 0.5 alpha_ent 0.40: 
+56.85650000000001
+
+
+K 50 T 10 alpha_word 0.2 alpha_ent 0.30: 
+51.9509
+
+
+K 50 T 10 alpha_word 0.3 alpha_ent 0.30: 
+51.5633
+
+
+K 50 T 10 alpha_word 0.4 alpha_ent 0.30: 
+51.477300000000014
+
+
+K 50 T 10 alpha_word 0.5 alpha_ent 0.30: 
+48.678399999999996
+
+
+K 50 T 10 alpha_word 0.2 alpha_ent 0.40: 
+57.9454
+
+
+K 50 T 10 alpha_word 0.3 alpha_ent 0.40: 
+57.826299999999996
+
+
+K 50 T 10 alpha_word 0.4 alpha_ent 0.40: 
+56.37950000000001
+
+
+K 50 T 10 alpha_word 0.5 alpha_ent 0.40: 
+59.045800000000014
+
+
+K 100 T 10 alpha_word 0.2 alpha_ent 0.30: 
+50.08730000000001
+
+
+K 100 T 10 alpha_word 0.3 alpha_ent 0.30: 
+51.9088
+
+
+K 100 T 10 alpha_word 0.4 alpha_ent 0.30: 
+51.4439
+
+
+K 100 T 10 alpha_word 0.5 alpha_ent 0.30: 
+48.678399999999996
+
+
+K 100 T 10 alpha_word 0.2 alpha_ent 0.40: 
+56.385700000000014
+
+
+K 100 T 10 alpha_word 0.3 alpha_ent 0.40: 
+55.33249999999998
+
+
+K 100 T 10 alpha_word 0.4 alpha_ent 0.40: 
+54.44129999999999
+
+
+K 100 T 10 alpha_word 0.5 alpha_ent 0.40: 
+59.32299999999999
+
+
+K 200 T 10 alpha_word 0.2 alpha_ent 0.30: 
+49.0811
+
+
+K 200 T 10 alpha_word 0.3 alpha_ent 0.30: 
+52.394
+
+
+K 200 T 10 alpha_word 0.4 alpha_ent 0.30: 
+51.32730000000001
+
+
+K 200 T 10 alpha_word 0.5 alpha_ent 0.30: 
+48.678399999999996
+
+
+K 200 T 10 alpha_word 0.2 alpha_ent 0.40: 
+55.76840000000001
+
+
+K 200 T 10 alpha_word 0.3 alpha_ent 0.40: 
+54.6246
+
+
+K 200 T 10 alpha_word 0.4 alpha_ent 0.40: 
+54.4661
+
+
+K 200 T 10 alpha_word 0.5 alpha_ent 0.40: 
+59.3602
+
+
